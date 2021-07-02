@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url("./nubes.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.glass {
+  height: 250px;
+  padding: 50px;
+}

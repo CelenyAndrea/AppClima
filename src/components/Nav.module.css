@@ -1,0 +1,40 @@
+/* #divNav {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+} */
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #126e82;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 15px;
+}
+
+.logo {
+  margin: 0px 20px;
+  width: 50px; height: 50px;
+}
+
+.titulo {
+  font-size: 23px;
+  color: #F1F3CE;
+  text-align: left;
+  margin-right: auto;
+}
+
+.boton {
+  border-radius: 5px;
+  font-size: 15px;
+  align-items: center;
+  background-color: #132c33;
+  color: #F1F3CE;
+  padding: 5px 20px;
+  margin: 5px;
+}
+
+.boton:hover {
+  background-color: #D0E1F9;
+  color: #00293C;
+}
